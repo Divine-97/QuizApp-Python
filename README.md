@@ -29,10 +29,12 @@ Check out the live site [here](https://quizapp-python.herokuapp.com/)
     * Questions
 
     The quiz contains 10 multiple questions. These questions are just general knowledge based questions which I thought to be interesting. The questions are just random questions about different topics ie, movies, the human body, celebrities etc.
-    
-    I put the questions on shuffle to make it a bit more interesting, instead of users knowing that the questions will be asked in a certain order. When the user selects the correct answer they are informed that the answer is correct. this will be colored in green.
 
-<img src="assets/images/correct.jpg">    
+<img src="images/assets/questions.jpg">    
+    
+    I put the questions on shuffle to make it a bit more interesting, instead of users knowing that the questions will be asked in a certain order. When the user selects the correct answer they are informed that the answer is correct. this will be colored in green. For every correct question the user answers they get a point, if they get the answer wrong they get 0 points.
+
+<img src="assets/images/correct.jpg">  
 
     If the user inputs the wrong the answer, they are also informed that they got the answer wrong and this will ne colored in red.
 
@@ -40,8 +42,17 @@ Check out the live site [here](https://quizapp-python.herokuapp.com/)
 
     * Final Score
 
+    Once all 10 questions have been answered, the user is then presented with their final score. Different messages are displayed, depending on whether the score is equal to or less than 5, or greater than 5. The message is personalised with the users name.
 
+<img src="assets/images/finalscore.jpg"> 
 
+    Another message is dsplayed when the users gets less than 5.
+
+<img src="assets/images/finalscore2.jpg">
+
+    Afte the final score is displayed, the user is asked if they want to play again by typing 'y' or 'n'. If 'y' is typed the game starts again. If 'n' is typed, a message informs the user that the quiz has ended and to click the 'Run Program' button if they wish to reset the quiz.   
+
+<img scr="assets/images/play again.jpg">
 
 **TESTING**
 
