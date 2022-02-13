@@ -1,7 +1,7 @@
 import colorama
+import random
 from colorama import Fore, Style
 colorama.init(autoreset=True)
-import random
 
 quiz_data = [
     {"question": "Who is the most followed Celebrity on Instagram?",
@@ -58,6 +58,7 @@ quiz_data = [
 ]
 random.shuffle(quiz_data)
 
+
 def count_keys(quiz_data):
     """
     Counts number of questions in dictionary (this allows more questions to be
@@ -74,6 +75,7 @@ def count_keys(quiz_data):
 
 
 num_of_questions = (count_keys(quiz_data))
+
 
 def start_quiz():
     """
@@ -92,8 +94,6 @@ def start_quiz():
         print(f"There are {num_of_questions} multiple choice questions.\n")
         print("Select your answer by typing 'a', 'b' or 'c'.\n")
         print("Good luck!\n")
-
-
 
     begin_quiz = True
 
@@ -135,7 +135,7 @@ def run_quiz(quiz_data):
         else:
             print(f"{Fore.RED}Oops! Better luck next time\n")
 
-    final_score(score)    
+    final_score(score)
 
 
 def final_score(score):
