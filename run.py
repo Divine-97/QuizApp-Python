@@ -25,7 +25,7 @@ quiz_data = [
                  "B": "78",
                  "C": "12"},
      "correct_answer": "B"},
-    {"question": "Who is the best F1 driver?",
+    {"question": "Which F1 driver has the most wins?",
      "answers": {"A": "Lewis Hamilton",
                  "B": "Max Verstappen",
                  "C": "Michael Schumacher"},
