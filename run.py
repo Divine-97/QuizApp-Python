@@ -20,7 +20,7 @@ quiz_data = [
                  "C": "Ireland"},
      "correct_answer": "C"},
 
-    {"question": "How many Organs are in the human body",
+    {"question": "How many Organs are in the human body?",
      "answers": {"A": "88",
                  "B": "78",
                  "C": "12"},
@@ -40,11 +40,11 @@ quiz_data = [
                  "B": "Scorpio",
                  "C": "Virgo"},
      "correct_answer": "B"},
-    {"question": "Which country is the origin of the cocktail Mojito",
+    {"question": "Which country is the origin of the cocktail Mojito?",
      "answers": {"A": "Cuba",
                  "B": "Spain",
                  "C": "Italy"},
-     "correct_answer": "B"},
+     "correct_answer": "A"},
     {"question": "How many contries are there in the world?",
      "answers": {"A": "195",
                  "B": "201",
@@ -56,6 +56,7 @@ quiz_data = [
                  "C": "6"},
      "correct_answer": "C"},
 ]
+random.shuffle(quiz_data)
 
 def count_keys(quiz_data):
     """
