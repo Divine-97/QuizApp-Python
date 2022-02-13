@@ -8,33 +8,48 @@ Check out the live site [here](https://quizapp-python.herokuapp.com/)
 
 **FEATURES**
 
-    *Introduction
+    * Introduction
 
-    Before the user starts the game, their asked to input their username.
+    Before the user starts the game, they need to click on the Run Program button and they'll be asked to enter their username. Once the user enters their name, they are shown instructions of how to play the quiz.
 <img src="assets/images/introduction.jpg">
     
+    * Instructions
+<img src="assets/images/instructions.jpg">  
+    The user is presented with a short description and simple instructions for the quiz. The user is asked to type 'y' for yes and 'n' for no. If the user types 'n' the user will be aksed to type 'y' when they are ready.
 
-    *Instructions*
+<img src="assets/images/instructions 2.jpg">   
+
 
     *Input validation and error checking
+    
+    As the game only requires users to choose between 'a', 'b', or 'c'. However if the user inputs any other letter the user will be asked to only input a,b or c. The user is then asked to input the given letters and is asked the same questiin again.
 
+<img src="assets/images/error img.jpg">    
 
+    * Questions
 
-    *Questions
+    The quiz contains 10 multiple questions. These questions are just general knowledge based questions which I thought to be interesting. The questions are just random questions about different topics ie, movies, the human body, celebrities etc.
+    
+    I put the questions on shuffle to make it a bit more interesting, instead of users knowing that the questions will be asked in a certain order. When the user selects the correct answer they are informed that the answer is correct. this will be colored in green.
 
+<img src="assets/images/correct.jpg">    
 
-    *Final Score
+    If the user inputs the wrong the answer, they are also informed that they got the answer wrong and this will ne colored in red.
+
+<img src="assets/images/wrong.jpg">
+
+    * Final Score
 
 
 
 
 **TESTING**
 
-    *Tested in my local terminal and Code Institute Heroku terminal.
-    *The game gives an input of invalid data if the player inputs invalid data.
+    * Tested in my local terminal and Code Institute Heroku terminal.
+    * The game gives an input of invalid data if the player inputs invalid data.
 
     
-    *Remaining Bugs
+    * Remaining Bugs
     I noticed that the app wasn't working on Iphone's. Apparently the template I used may not support Safari browser, but even when i tried to install Chrome on an Iphone the app was not responsive. The app is able to open in Safari but users can't input data.
 
 **VALIDATOR TESTING**
@@ -70,11 +85,11 @@ Check out the live site [here](https://quizapp-python.herokuapp.com/)
 
 **CREDITS**
 
-    *Most of my Quiz questions were taken from [Buzz Feed](https://www.buzzfeed.com/sarahaspler/general-knowledge-10-questions-quiz) and just some knowledge that I know.
+    * Most of my Quiz questions were taken from [Buzz Feed](https://www.buzzfeed.com/sarahaspler/general-knowledge-10-questions-quiz) and just some knowledge that I know.
 
-    *Code Institute for the deployment terminal.
+    * Code Institute for the deployment terminal.
 
-    *I would like to thank Tutor support for the assistance and also my Mentor Chris Quinn.
+    * I would like to thank Tutor support for the assistance and also my Mentor Chris Quinn.
 
 
 
