@@ -14,7 +14,7 @@ Check out the live site [here](https://quizapp-python.herokuapp.com/)
 <img src="assets/images/introduction.jpg">
     
 
-    *Instructions
+    *Instructions*
 
     *Input validation and error checking
 
@@ -47,7 +47,34 @@ Check out the live site [here](https://quizapp-python.herokuapp.com/)
 
 **DEPLOYMENT**
 
+    This application has been deployed using Heroku
+    Create or sign into a Heroku account
+    Click the Create new app button
+    Choose a name for the app (This needs to be unique)
+    Choose region, then click create app.
+    Click on settings
+    Click reveal config vars button
+    In this project we needed to add a key of PORT and VALUE of 8000
+    Click add.
+    Click add buildpack
+    Here we add python, save changes
+    node.js, save changes
+    make sure python is on top.
+    Go to the deploy tab
+    Choose your deployment method (ours is github)
+    Search for our repository name, then connect
+    You can choose to have automatic deploy on
+    You then click on the manual deploy and wait until you see a finished message saying view app
+    Click the view app button
+    Click the run program button at the top.
+
 **CREDITS**
+
+    *Most of my Quiz questions were taken from [Buzz Feed](https://www.buzzfeed.com/sarahaspler/general-knowledge-10-questions-quiz) and just some knowledge that I know.
+
+    *Code Institute for the deployment terminal.
+
+    *I would like to thank Tutor support for the assistance and also my Mentor Chris Quinn.
 
 
 
