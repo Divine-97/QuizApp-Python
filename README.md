@@ -117,7 +117,7 @@ Check out the live site [here](https://quizapp-python.herokuapp.com/)
 
 **CREDITS**
 
-   * Most of my Quiz questions were taken from [Buzz Feed](https://www.buzzfeed.com/sarahaspler/* general-knowledge-10-questions-quiz).
+   * Most of my Quiz questions were taken from [Buzz Feed](https://www.buzzfeed.com/uk/quizzes).
 
    * I watched a couple of videos on youtube and also googled python quiz game for guidance on how to sturcture my code.
 
